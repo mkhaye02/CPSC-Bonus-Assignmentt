@@ -7,6 +7,10 @@ output: html_notebook
 # Bonus Assignment Notebook
 
 ```{r}
+plot(ChickWeight$Time, ChickWeight$Chick)
+```
+
+```{r}
 plot(iris$Species, iris$Petal.Width)
 ```
 
