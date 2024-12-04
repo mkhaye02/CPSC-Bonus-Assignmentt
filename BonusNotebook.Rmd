@@ -7,6 +7,9 @@ output: html_notebook
 # Bonus Assignment Notebook
 
 This is my bonus assignment notebook
+```{r}
+plot(mtcars$qsec, mtcars$cyl)
+```
 
 ```{r}
 plot(mtcars$mpg, mtcars$wt)
