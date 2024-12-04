@@ -6,6 +6,10 @@ output: html_notebook
 
 # Bonus Assignment Notebook
 
+```{r}
+plot(iris$Species, iris$Petal.Width)
+```
+
 This is my bonus assignment notebook
 ```{r}
 plot(mtcars$qsec, mtcars$cyl)
